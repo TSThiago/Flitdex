@@ -133,7 +133,17 @@ button:hover{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    gap: 10rem;
+    gap: 5rem;
+}
+
+.PersonalPresentation{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.PersonalPresentation img{
+    margin-right: 2rem;
+    object-fit: cover;
 }
 
 .ButtonSection{
