@@ -1,0 +1,98 @@
+.background {
+    background-color: #042940;
+    height: 48.4ch;
+}
+
+.logoflit {
+    margin-left: 3ch;
+    margin-top: 1ch;
+}
+
+.navegationBar {
+    float: right;
+    margin-top: 1ch;
+}
+
+.home {
+    float: left;
+    color: rgb(240, 248, 255);
+}
+
+.participantes {
+    float: left;
+    margin-left: 2.7ch;
+    color: rgb(240, 248, 255);
+}
+
+.about {
+    float: left;
+    margin-left: 2.7ch;
+    margin-right: 3ch;
+    color: rgb(240, 248, 255);
+}
+
+.picperfil {
+    margin-left: 3ch;
+    margin-top: 1ch;
+    float: left;
+    border-radius: 4%;
+    border-style: groove;
+    box-shadow: rgb(239, 233, 233) -1px 1px 15px;
+
+}
+
+.name {
+    color: rgb(240, 248, 255);
+    margin-left: 18ch;
+    margin-top: 1ch;
+}
+
+.socialMidia {
+    size: 1ch;
+    color: rgba(240, 248, 255, 0.572);
+    margin-left: 4ch;
+}
+
+.aboutMe {
+    float: left;
+    margin-top: 1.5cm;
+    margin-left: 3ch;
+    margin-right: 15cm;
+    width:350px;
+
+}
+
+.description {
+    color: rgba(240, 248, 255, 0.572);
+}
+
+.descriptionName {
+    color: rgb(240, 248, 255);
+}
+
+.button, .buttonEdit {
+    margin-top: 3ch;
+    border: 0;
+    line-height: 1.2;
+    padding: 2px 6px;
+    text-shadow: 1px 1px 1px #DBF227;
+    border-radius: 10px;
+    background-color: #DBF227;
+    background-image: linear-gradient(top left,
+            rgba(0, 0, 0, .2),
+            rgba(0, 0, 0, .2) 30%,
+            rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(11, 4, 4, 0.422),
+                inset -1px -2px 3px rgba(1, 0, 0, 0.733);
+}
+.button:active {
+    box-shadow: inset -2px -2px 3px #DBF227,
+                inset 2px 2px 3px rgba(0, 0, 0, 0.946);
+}
+.buttonEdit{
+    float: right;
+}
+.buttonEdit:active{
+    box-shadow: inset -2px -2px 3px #DBF227,
+                inset 2px 2px 3px rgba(0, 0, 0, 0.946);
+}
