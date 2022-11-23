@@ -171,3 +171,43 @@ button:hover{
     line-height: 1.2em;
     font-size: 1rem;
 }
+
+@media only screen and (max-width: 800px){
+    header{
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    header div{
+        margin-right: 3rem;
+    }
+
+    p{
+        width: 35rem;
+    }
+
+    h3,h1,h2{
+        text-align: center;
+    }
+
+    .MainSection{
+        display: block;
+    }
+
+    .ButtonSection{
+        width: 25rem;
+        justify-content: flex-start;
+    }
+
+    .Personalities{
+        text-align: center;
+    }
+
+    .InputsSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
