@@ -1,4 +1,4 @@
-const textButton = document.getElementById('editButton')
+const textButton = document.getElementById('button')
 const changedText = document.getElementById('text')
 
 if (window.localStorage.length === 0) {
@@ -7,7 +7,7 @@ if (window.localStorage.length === 0) {
     }
 
     function inputNewText(e) {
-        e.target.value = prompt("insira o novo texto:")
+        e.target.value = prompt("Insira o novo texto:")
         window.localStorage.setItem("NewText", e.target.value)
         changeText(e)
     }
