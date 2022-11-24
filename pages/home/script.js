@@ -8,9 +8,8 @@ const Joao = '../../assets/Persons/Joao.png'
 const Zizau = '../../assets/Persons/Zizau.jpg'
 const Gabriel = '../../assets/Persons/Gabriel.png'
 
-const JoaoPage = ''
+const JoaoPage = '../AboutMe/Joao/apresentation.html'
 const SidaoPage = ''
-
 const ZizauPage = '../../pages/AboutMe/Zizau/zizau.html'
 const GabrielPage = '../../pages/AboutMe/Gabriel/GabrielSantana.html'
 
@@ -22,6 +21,7 @@ const NamesList = ['João', 'Sidao', 'Zizau', 'Gabriel']
 const LinksList = [JoaoPage, SidaoPage, ZizauPage, GabrielPage]
 
 let Counter = 0
+LinksCarousel.href = LinksList[Counter]
 
 
 RightArrow.addEventListener('click', (e) => {
