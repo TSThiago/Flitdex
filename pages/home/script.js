@@ -9,7 +9,7 @@ const Zizau = '../../assets/Persons/Zizau.jpg'
 const Gabriel = '../../assets/Persons/Gabriel.png'
 
 const JoaoPage = '../AboutMe/Joao/apresentation.html'
-const SidaoPage = ''
+const SidaoPage = '../AboutMe/Sidao/index.html'
 const ZizauPage = '../../pages/AboutMe/Zizau/zizau.html'
 const GabrielPage = '../../pages/AboutMe/Gabriel/GabrielSantana.html'
 
