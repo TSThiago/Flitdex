@@ -1,0 +1,169 @@
+/* Body */
+
+body {
+    background: #030953;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+header {
+    min-height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Navbar */
+
+nav {
+    height: 4vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    margin-left: 2rem;
+    justify-content: flex-start;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+}
+
+.navBar>a {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-decoration: none;
+    transition: color 1s;
+}
+
+.navBar>a:hover {
+    color: #eaf20b;
+}
+
+.presentation {
+    grid-area: profile;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px rgb(211, 227, 225);
+    gap: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(26, 153, 207, 0.2);
+    border-radius: 5px;
+}
+
+#sidneyImg {
+    border-radius: 2px;
+
+}
+
+/* Main */
+
+.description {
+    grid-area: description;
+    border: solid 1px rgb(211, 227, 225);
+    gap: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(26, 153, 207, 0.2);
+    border-radius: 5px;
+}
+
+.content {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 20vw 20vw 40vw;
+    grid-template-areas: "profile profile skills" "description description skills";
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    color: white;
+}
+
+.button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: yellow;
+    cursor: pointer;    
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button:hover {
+    box-shadow: none;
+    background-color: white;
+}
+
+
+/* Table Part */
+
+.table {
+    background-color: #dbf227;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    grid-area: table;
+    width: 40.5vw;
+    height: 80vh;
+    box-shadow: 2px 2px 2px 1px rgba(26, 153, 207, 0.2);
+    border-radius: 5px;
+}
+
+.title {
+    margin-top: 1vh;
+    margin-left: 1vw;
+    width: 32vw;
+    background-color: #dbf227;
+}
+
+.title h2 {
+    background-color: #dbf227;
+    color: black;
+    font-weight: bolder;
+
+}
+
+.tableDivs {
+    background-color: #dbf227;
+    margin: 2vh 1vw;
+}
+
+.tableDivs span {
+    background-color: #dbf227;
+    color: black;
+    font-weight: bolder;
+}
+
+.RangePersonalities {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+    background-color: #dbf227;
+}
+
+input[type='range'] {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 1px;
+    background-color: #062444;
+    width: 30rem;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    width: 2rem;
+    height: 1rem;
+    background-color: black;
+    border-radius: 1rem;
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
