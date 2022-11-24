@@ -1,11 +1,12 @@
 .background {
     background-color: #042940;
-    height: 48.4ch;
+    width: 100%;
+    height: 969.2px;
 }
 
 .logoflit {
-    margin-left: 3ch;
-    margin-top: 1ch;
+    margin-left: 9.5ch;
+    margin-top: 3ch;
 }
 
 .navegationBar {
@@ -32,8 +33,8 @@
 }
 
 .picperfil {
-    margin-left: 3ch;
-    margin-top: 1ch;
+    margin-left: 10ch;
+    margin-top: 6ch;
     float: left;
     border-radius: 4%;
     border-style: groove;
@@ -43,8 +44,8 @@
 
 .name {
     color: rgb(240, 248, 255);
-    margin-left: 18ch;
-    margin-top: 1ch;
+    margin-left: 20.5ch;
+    margin-top: 4ch;
 }
 
 .socialMidia {
@@ -55,11 +56,10 @@
 
 .aboutMe {
     float: left;
-    margin-top: 1.5cm;
-    margin-left: 3ch;
-    margin-right: 15cm;
-    width:350px;
-
+    margin-top: 3cm;
+    margin-left: 2.1cm;
+    margin-right: 90cm;
+    width: 600px;
 }
 
 .description {
@@ -70,7 +70,10 @@
     color: rgb(240, 248, 255);
 }
 
-.button, .buttonEdit {
+.button,
+.buttonEdit {
+    width: 80px;
+    height: 30px;
     margin-top: 3ch;
     border: 0;
     line-height: 1.2;
@@ -83,16 +86,169 @@
             rgba(0, 0, 0, .2) 30%,
             rgba(0, 0, 0, 0));
     box-shadow: inset 2px 2px 3px rgba(11, 4, 4, 0.422),
-                inset -1px -2px 3px rgba(1, 0, 0, 0.733);
+        inset -1px -2px 3px rgba(1, 0, 0, 0.733);
 }
+
 .button:active {
     box-shadow: inset -2px -2px 3px #DBF227,
-                inset 2px 2px 3px rgba(0, 0, 0, 0.946);
+        inset 2px 2px 3px rgba(0, 0, 0, 0.946);
 }
-.buttonEdit{
+
+.buttonEdit {
     float: right;
 }
-.buttonEdit:active{
+
+.buttonEdit:active {
     box-shadow: inset -2px -2px 3px #DBF227,
-                inset 2px 2px 3px rgba(0, 0, 0, 0.946);
+        inset 2px 2px 3px rgba(0, 0, 0, 0.946);
 }
+
+.personalidade {
+    background-color: #DBF227;
+    float: right;
+    margin-top: -72ch;
+    margin-right: 2cm;
+    border-radius: 5%;
+    border-style: ridge;
+    border-color: rgb(240, 248, 255);
+    height: 500px;
+
+}
+
+.titlepersonalidade {
+    margin-top: 1.5ch;
+    margin-bottom: 30px;
+    margin-left: 16ch;
+}
+
+.bar {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 1cm;
+    float: right;
+    position: relative;
+    background-color: black;
+    width: 300px;
+    height: 3px;
+    border-radius: 10px;
+}
+
+.marker {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    border-radius: 20px;
+    height: 10px;
+    width: 26px;
+}
+
+.leftpersonalidade {
+    float: left;
+    margin-left: 1ch;
+}
+
+.rightpersonalidade {
+    float: right;
+    margin-right: 1ch;
+}
+
+.bar2 {
+    margin-top: 17px;
+    margin-left: 9ch;
+    margin-right: 0.9cm;
+    float: right;
+    position: relative;
+    background-color: black;
+    width: 297px;
+    height: 3px;
+    border-radius: 10px;
+}
+
+.marker2 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    border-radius: 20px;
+    height: 10px;
+    width: 26px;
+}
+
+.leftpersonalidade2 {
+    float: left;
+    margin-top: 3ch;
+    margin-left: -9ch;
+
+}
+
+.rightpersonalidade2 {
+    float: right;
+    margin-top: 1.8ch;
+    margin-right: -6.2ch;
+}
+
+.bar3 {
+    margin-top: 3ch;
+    margin-left: 8ch;
+    float: left;
+    position: relative;
+    background-color: black;
+    width: 300px;
+    height: 3px;
+    border-radius: 10px;
+}
+
+.marker3 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    border-radius: 20px;
+    height: 10px;
+    width: 26px;
+}
+
+.leftpersonalidade3 {
+    float: left;
+    margin-top: 2ch;
+    margin-left: 4ch;
+}
+
+.rightpersonalidade3 {
+    float: right;
+    margin-right: 0.8cm;
+}
+
+.bar4 {
+    margin-top: 3.8ch;
+    margin-left: 8ch;
+    float: left;
+    position: relative;
+    background-color: black;
+    width: 300px;
+    height: 3px;
+    border-radius: 10px;
+}
+
+.marker4 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    border-radius: 20px;
+    height: 10px;
+    width: 26px;
+}
+.leftpersonalidade4{
+    float: left;
+    margin-top: 4ch;
+    margin-left: -10.8cm;
+}
+
+/*
+<h3 class="rightpersonalidade4">Organizado</h3>
