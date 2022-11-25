@@ -106,13 +106,12 @@
 .personalidade {
     background-color: #DBF227;
     float: right;
-    margin-top: -72ch;
-    margin-right: 2cm;
+    margin-top: -73.5ch;
+    margin-right: 1cm;
     border-radius: 5%;
     border-style: ridge;
     border-color: rgb(240, 248, 255);
-    height: 500px;
-
+    height: 300px;
 }
 
 .titlepersonalidade {
@@ -136,7 +135,7 @@
 .marker {
     position: absolute;
     top: 50%;
-    left: 10%;
+    left: 100%;
     transform: translate(-50%, -50%);
     background-color: red;
     border-radius: 20px;
@@ -169,7 +168,7 @@
 .marker2 {
     position: absolute;
     top: 50%;
-    left: 10%;
+    left: 60%;
     transform: translate(-50%, -50%);
     background-color: red;
     border-radius: 20px;
@@ -204,7 +203,7 @@
 .marker3 {
     position: absolute;
     top: 50%;
-    left: 10%;
+    left: 60%;
     transform: translate(-50%, -50%);
     background-color: red;
     border-radius: 20px;
@@ -237,7 +236,7 @@
 .marker4 {
     position: absolute;
     top: 50%;
-    left: 10%;
+    left: 50%;
     transform: translate(-50%, -50%);
     background-color: red;
     border-radius: 20px;
@@ -249,6 +248,93 @@
     margin-top: 4ch;
     margin-left: -10.8cm;
 }
+.rightpersonalidade4{
+    margin-top: 1.5ch;
+    margin-right: 2ch;
+    float: right;
+}
+.leftpersonalidade5{
+    float: left;
+}
+.rightpersonalidade5{
+    float: right;
+}
 
-/*
-<h3 class="rightpersonalidade4">Organizado</h3>
+.bar5{
+    float: left;
+    margin-top: 2.5ch;
+    margin-left: 15ch;
+    position: relative;
+    background-color: black;
+    width: 300px;
+    height: 3px;
+    border-radius: 10px;
+}
+
+.marker5{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    border-radius: 20px;
+    height: 10px;
+    width: 26px;
+}
+.leftpersonalidade6{
+    float: left;
+    margin-left: 1ch;
+    margin-top: 1ch;
+}
+.bar6{
+    float: left;
+    margin-top: 2.5ch;
+    margin-left: 0.85cm;
+    position: relative;
+    background-color: black;
+    width: 300px;
+    height: 3px;
+    border-radius: 10px;
+}
+.marker6{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    border-radius: 20px;
+    height: 10px;
+    width: 26px;
+}
+.rightpersonalidade6{
+    float: right;
+    margin-right: 2ch;
+}
+.leftpersonalidade7{
+    margin-left: 1ch;
+    float: left;
+    margin-top: -1ch;
+}
+.bar7{
+    margin-top: 5.3cm;
+    margin-left: 15ch;
+    position: relative;
+    background-color: black;
+    width: 300px;
+    height: 3px;
+    border-radius: 10px;
+}
+.marker7{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    border-radius: 20px;
+    height: 10px;
+    width: 26px;
+}
+.rightpersonalidade7{
+    float: right;
+    margin-top:-1.5ch;
+}
