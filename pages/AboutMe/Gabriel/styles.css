@@ -1,0 +1,213 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 39rem;
+    padding: 2rem;
+}
+
+header img{
+    object-fit: contain;
+}
+
+ul{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 500;
+    gap: 2rem;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+ul > a:hover{
+    transition: .3s;
+    cursor: pointer;
+    color: #33b038;
+}
+
+body{
+    background-color: #03012c;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type = 'range']{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 1px;
+    background-color: #062444;
+    width: 30rem;
+    margin-bottom: 3rem;
+}
+
+input[type = 'range']::-webkit-slider-thumb{
+    width: 2rem;
+    height: 1rem;
+    background-color: #33b038;
+    border-radius: 1rem;
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+h3{
+    font-family: 'Rubik', sans-serif;
+    color: #3CB35A;
+    font-weight: 300;
+    font-size: 1.875rem;
+    margin-top: 5rem;
+}
+
+h1{
+    color: #FFFFFF;
+    font-family: "Rubik", sans-serif;
+    font-size: 5.5rem;
+    font-weight: 700;
+}
+
+h2{
+    font-weight: 400;
+    color: #635E79;
+    font-size: 2.25rem;
+}
+
+h4{
+    color: #FFFFFF;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    line-height: 1.2em;
+    font-size: 2.25rem;
+    margin-bottom: 1.125rem;
+}
+
+ol > li{
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #3CB35A;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: .8rem;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #B0AEB9;
+    width: 40rem;
+    text-align: left;
+}
+
+button{
+    background-color: #3CB35A;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: .3s;
+    transform: translateY(-2px);
+    box-shadow: 2px 4px 10px 0px rgb(60, 179, 90, 50%);
+}
+
+.MainSection{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.PersonalPresentation{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.PersonalPresentation img{
+    margin-right: 2rem;
+    object-fit: cover;
+}
+
+.ButtonSection{
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+    width: 35rem;
+    justify-content: space-between;
+}
+
+.Personalities{
+    font-size: 2.25rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+.RangePersonalities{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30rem;
+    margin-bottom: 1rem;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    line-height: 1.2em;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 800px){
+    header{
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    header div{
+        margin-right: 3rem;
+    }
+
+    p{
+        width: 35rem;
+    }
+
+    h3,h1,h2{
+        text-align: center;
+    }
+
+    .MainSection{
+        display: block;
+    }
+
+    .ButtonSection{
+        width: 25rem;
+        justify-content: flex-start;
+    }
+
+    .Personalities{
+        text-align: center;
+    }
+
+    .InputsSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

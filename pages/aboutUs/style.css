@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 39rem;
+    padding: 2rem;
+}
+
+header img{
+    object-fit: contain;
+}
+
+ul{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 500;
+    gap: 2rem;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+ul > a:hover{
+    transition: .3s;
+    cursor: pointer;
+    color: #33b038;
+}
+
+body{   
+    background-color: #03012c;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    color: black;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.contentBox {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 38vh;
+    width: 30vw;
+    margin-left: 2.5vw;
+}
+
+.title {
+    margin-left: 1vw;
+    margin-top: 1vh;
+}
+
+.BigBoxes {
+    width: 29vw;
+    height: 30vh;
+    align-items: center;
+    margin-left: 1vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "box1 box2" 
+    "box3 box4";
+}
+
+.smallBox {
+    font-weight:500;
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    justify-content: space-around;
+    width: 14vw;
+    height: 13vh;
+}
+
+.smallBox span {
+    margin-left: 1vw;
+}
+
+.smallBox p {
+    font-size: smaller;
+    margin-left: 1vw;
+}
+
+.interests {
+    background-color: #ffafa3;
+}
+
+.influences {
+    background-color: #85e0a3;
+}
+
+.goals {
+    background-color: #80caff;
+}
+
+.necessity {
+    background-color: #ffc470;
+}
+
+.motivations {
+    background-color: #d9b8ff;
+}
+
+.frustrations {
+    background-color: #ffd966;
+}
+
+.box1 {
+    grid-area: box1;
+}
+
+.box2 {
+    grid-area: box2;
+}
+
+.box3 {
+    grid-area: box3;
+}
+
+.box4 {
+    grid-area: box4;
+}
+
