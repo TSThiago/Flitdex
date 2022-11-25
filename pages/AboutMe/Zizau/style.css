@@ -202,3 +202,33 @@ input[type = 'range']::-webkit-slider-thumb{
     appearance: none;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 800px){
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .infos {
+        grid-area: infos;
+        margin-top: 20px;
+        height: 240px;
+        width: 500px;
+    }
+
+    .aboutMe {
+        margin-top: 30px;
+        height: 320px;
+        width:500px;
+        text-align: justify;
+    }
+
+    .table {
+        background-color: #dbf227;
+        margin-bottom: 30px;
+        margin-top:30px;
+        width:500px;
+        height: 80.5vh;
+    }
+}
