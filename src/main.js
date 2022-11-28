@@ -1,32 +1,17 @@
-const textButton = document.getElementById('button')
-const changedText = document.getElementById('text')
+const text = document.querySelector("p")
+const botomText = document.querySelector("#editText")
 
-if (window.localStorage.length === 0) {
-    function changeText(e) {
-        changedText.textContent = window.localStorage.getItem("NewText")
-    }
+let count = 0
 
-    function inputNewText(e) {
-        e.target.value = prompt("Insira o novo texto:")
-        window.localStorage.setItem("NewText", e.target.value)
-        changeText(e)
-    }
+window.localStorage.getItem("count") != undefined && (text.textContent = window.localStorage.getItem("text"))
 
-    textButton.addEventListener('click', inputNewText)
+botomText.addEventListener("click", (e) => {    
+    count++
+    const newText = String(prompt("Digite o novo paragrafo: "))
 
-} else {
-    
-    changedText.textContent = window.localStorage.getItem("NewText")
-    function changeText(e) {
-        changedText.textContent = window.localStorage.getItem("NewText")
-    }
+    text.textContent = newText
+    window.localStorage.setItem("text", text.textContent)
+    window.localStorage.setItem("count", count)
+})
 
-    function inputNewText(e) {
-        e.target.value = prompt("insira o novo texto:")
-        window.localStorage.setItem("NewText", e.target.value)
-        changeText(e)
-    }
 
-    textButton.addEventListener('click', inputNewText)
-
-}
