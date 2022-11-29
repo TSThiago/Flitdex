@@ -7,7 +7,7 @@ window.localStorage.getItem("count") != undefined && (text.textContent = window.
 
 botomText.addEventListener("click", (e) => {    
     count++
-    const newText = String(prompt("Digite o novo paragrafo: "))
+    const newText = String(prompt("Digite o novo texto: "))
 
     text.textContent = newText
     window.localStorage.setItem("text", text.textContent)
